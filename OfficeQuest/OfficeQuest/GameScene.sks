@@ -1,0 +1,15 @@
+<reference id="1">
+    <scene objectID="0" sceneName="GameScene">
+        <anchorPoint x="0.5" y="0.5"/>
+        <scale x="1" y="1"/>
+        <children>
+            <labelNode objectID="1" name="helloLabel" position="0.000,0.000" zPosition="0" anchorPoint="0.500,0.500" fontName="HelveticaNeue" fontSize="48" fontColor="1.000,1.000,1.000,1.000" text="Hello, World!" rotation="0.000">
+                <userData/>
+            </labelNode>
+        </children>
+        <backgroundColor r="0.152941" g="0.152941" b="0.152941" a="1"/>
+        <size w="1334" h="750"/>
+        <scaleMode val="2"/>
+        <physicsBody/>
+    </scene>
+</reference>

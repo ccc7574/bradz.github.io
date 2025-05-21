@@ -1,0 +1,179 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildConfigList section */
+		C01FCF4E2C00000000000000 /* Build configuration list for PBXProject "OfficeQuest" */ = {
+			isa = PBXBuildConfigList;
+			buildConfigurations = (
+				C01FCF4F2C00000000000000 /* Debug */,
+				C01FCF502C00000000000000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF512C00000000000000 /* Build configuration list for PBXNativeTarget "OfficeQuest" */ = {
+			isa = PBXBuildConfigList;
+			buildConfigurations = (
+				C01FCF522C00000000000000 /* Debug */,
+				C01FCF532C00000000000000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End PBXBuildConfigList section */
+
+/* Begin PBXProject section */
+		C01FCF4D2C00000000000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1300;
+				ORGANIZATIONNAME = "com.example";
+				TargetAttributes = {
+					C01FCF542C00000000000000 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = C01FCF4E2C00000000000000 /* Build configuration list for PBXProject "OfficeQuest" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C01FCF552C00000000000000;
+			productRefGroup = C01FCF562C00000000000000;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C01FCF542C00000000000000 /* OfficeQuest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXNativeTarget section */
+		C01FCF542C00000000000000 /* OfficeQuest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF512C00000000000000 /* Build configuration list for PBXNativeTarget "OfficeQuest" */;
+			buildPhases = (
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OfficeQuest;
+			productName = OfficeQuest;
+			productReference = C01FCF572C00000000000000 /* OfficeQuest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXGroup section */
+		C01FCF552C00000000000000 = {
+			isa = PBXGroup;
+			children = (
+				C01FCF582C00000000000000 /* OfficeQuest */,
+				C01FCF562C00000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C01FCF582C00000000000000 /* OfficeQuest */ = {
+			isa = PBXGroup;
+			children = (
+				// Will add app delegate, scene delegate, view controller, game scene etc. here
+			);
+			path = OfficeQuest;
+			sourceTree = "<group>";
+		};
+		C01FCF562C00000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C01FCF572C00000000000000 /* OfficeQuest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+
+/* End PBXGroup section */
+
+/* Begin PBXFileReference section */
+		C01FCF572C00000000000000 /* OfficeQuest.app */ = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.application;
+			includeInIndex = 0;
+			path = OfficeQuest.app;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXFileReference section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4F2C00000000000000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ""; // Needs to be set in Xcode
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OfficeQuest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0; // Targeting recent iOS
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.OfficeQuest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0; // Swift version
+				TARGETED_DEVICE_FAMILY = "1,2"; // iPhone, iPad
+                UILaunchStoryboardName = LaunchScreen;
+                UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+                UISupportedInterfaceOrientations~ipad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+
+
+			};
+			name = Debug;
+		};
+		C01FCF502C00000000000000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ""; // Needs to be set in Xcode
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OfficeQuest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0; // Targeting recent iOS
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.OfficeQuest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0; // Swift version
+				TARGETED_DEVICE_FAMILY = "1,2"; // iPhone, iPad
+                UILaunchStoryboardName = LaunchScreen;
+                UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+                UISupportedInterfaceOrientations~ipad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+			};
+			name = Release;
+		};
+		C01FCF522C00000000000000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C01FCF532C00000000000000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C01FCF4D2C00000000000000 /* Project object */;
+}
